@@ -1,0 +1,215 @@
+.gradient-background {
+    background: linear-gradient(300deg, #d4d42b,#8e4f08,#ffac4d,);
+  
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.nav-link{
+  color: rgba(14, 14, 14, 0.489);
+}
+.container{
+  
+  //background-color: #f1b775;
+}
+.giza, .curse, .stone, .temple,.nile, .sphinx, .conclude{
+  background: hsla(51, 89%, 61%, 1);
+
+background: linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F4D941", endColorstr="#EC8235", GradientType=1 );
+border-radius: 1rem;
+}
+.giza{
+  padding:2rem;
+  border-radius: 1rem;
+}
+.first{
+  background-image:"images/backdrop1.png";
+}
+.heading{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: hsla(59, 86%, 68%, 1);
+
+background: linear-gradient(90deg, hsla(59, 86%, 68%, 1) 0%, hsla(134, 36%, 53%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(59, 86%, 68%, 1) 0%, hsla(134, 36%, 53%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(59, 86%, 68%, 1) 0%, hsla(134, 36%, 53%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F4F269", endColorstr="#5CB270", GradientType=1 ); 
+
+}
+body{
+  /* background: hsla(139, 70%, 75%, 1);
+
+background: linear-gradient(90deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(139, 70%, 75%, 1) 0%, hsla(63, 90%, 76%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#95ECB0", endColorstr="#F3F98A", GradientType=1 ); */
+background: hsla(4, 48%, 94%, 1);
+
+background: linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(4, 48%, 94%, 1) 0%, hsla(66, 70%, 80%, 1) 50%, hsla(226, 67%, 76%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7E9E8", endColorstr="#E9F0AA", GradientType=1 );
+}
+.my-5{
+  //background-color: #f1b775;
+}
+.imgmap{
+  height: 300px;
+  width: 400px;
+  border:5px black;
+  border-radius: 0px;
+
+}
+.imgizo{
+  height: 500px;
+  width: 100rem;
+  length: 1000px;
+  
+}
+h1{
+  
+  font-family: Bodoni Moda;
+  text-align: center;
+}
+h3{
+  font-family: DM Serif;
+}
+p{
+  font-family: PT Serif;
+}
+
+.title, .conclude{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  background: hsla(51, 89%, 61%, 1);
+
+  background: linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(51, 89%, 61%, 1) 0%, hsla(25, 83%, 57%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F4D941", endColorstr="#EC8235", GradientType=1 );
+  border-radius: 1rem
+}
+.curse, .sphinx{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 2rem;
+}
+.imggiza{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.curseimg{
+  height: 450px;
+  width: 450px;
+}
+.stone, .temple{
+  display: grid;
+  grid-template-columns:;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+  padding: 10x;
+}
+.rosetta{
+display:flex; 
+justify-content:space-between;
+ 
+}
+.stones{
+  height: 400px;
+  width: 500px;
+  gap: 20px;
+}
+.stone2{
+  height: 400px;
+  width: 500px;
+  gap: 20px;
+}
+.nile{
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  
+}
+.hera{
+  display: flex;
+  flex-direction:column;
+  gap: 10x;
+  padding: 10px;
+}
+
+.hera-1{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+.hera-2{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+.temples{
+  height:400px;
+  width: 520px;
+
+}
+.temples1{
+  height:400px;
+  width: 520px;
+
+}
+.lostcity1{
+  height:300px;
+  width: 450px;
+}
+.lostcity2, .sphin, .concluded{
+  height:400px;
+  width: 400px;
+}
+
+
+
+/* <svg class="bi" width="24" height="24"><use xlink:href=""></use></svg> */

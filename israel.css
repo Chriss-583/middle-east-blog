@@ -1,0 +1,148 @@
+
+
+@media (min-width:600px and max-width: 900px){
+    .dome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 8rem;
+    }
+     .start{
+        width: 100%;
+        height: 30rem;
+        position: absolute; 
+    } 
+    .cards{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns:1fr;
+        justify-content: center;
+        align-items: center;
+        height: 6rem;
+        
+    }
+    .card{
+        width: 15rem;
+        height: 10rem;
+        margin-top: 9rem;
+    }
+    .masada1, .faith1, .puzzle1, .mount1, .marvel1, .conclusion1{
+        display: flex;
+        justify-content: space-even;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pico, .western, .puzzle2, .temple, .science{
+        width:200px;
+    }
+    .israel{
+        width: 300px;
+        height: 200px;
+    }
+    .begin{
+        margin-top: 17rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+
+}
+.start{
+    width: 100%;
+    height: 40rem;
+     position: absolute; 
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.card{
+    width: 30rem;
+    height: 20rem;
+    margin-top: 12rem;
+}
+.heading{
+    padding: 20px;
+    font-family: PT Serif;
+    border:5px #FFF6E9;
+    border-radius:2px;
+    border: 5px solid #3498db; /* Border color */
+    box-shadow: 0 5px 10px rgba(0, 0, 10, 10); /* Border shadow */
+}
+.dome{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+}
+.begin{
+    margin-top: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    
+}
+li{
+    font-family: DM Serif;
+    font-size: 20px;
+    color: #FFF6E9;
+}
+p{
+    font-family: DM Serif;
+    font-size: 20px;
+}
+h2{
+    font-family: PT Serif;
+    font-size: 40px; 
+    font-weight: 20px;
+    text-align: left;
+}
+.h22{
+    color: #FFF6E9;
+}
+.Intro, .masada, .faith, .puzzle, .mount, .marvel, .Conclusion{
+    border-radius: 20px;
+    background: hsla(214, 92%, 47%, 1);
+    align-items:center;
+    /* left: 20rem; */
+    justify-content: center;
+background: linear-gradient(90deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(214, 92%, 47%, 1) 0%, hsla(231, 85%, 24%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0968E5", endColorstr="#091970", GradientType=1 );
+width: 85%;
+/* height: 10rem; */
+padding: 15px;
+/* border: 5px ; /* Border color */
+    /* box-shadow: 0 5px 10px rgba(0, 0, 10, 10); */
+}
+.masada1, .faith1, .puzzle1, .mount1, .marvel1, .conclusion1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.pico, .western, .puzzle2, .temple, .science{
+    width:500px;
+
+}
+.israel{
+    width: 600px;
+    height: 400px;
+}
+.end{
+   
+}

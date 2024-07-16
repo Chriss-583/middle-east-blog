@@ -1,0 +1,44 @@
+.gradient-background {
+    background: linear-gradient(300deg, #d4d42b,#8e4f08,#ffac4d,);
+  
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+.nav-link{
+  color: rgba(14, 14, 14, 0.489);
+}
+.container{
+  background-color: #f1b775;
+}
+.my-5{
+  background-color: #f1b775;
+}
+h1{
+  font-family: Bodoni Moda;
+}
+h3{
+  font-family: DM Serif;
+}
+p{
+  font-family: PT Serif;
+}
+body{
+  background-color: "sanddunes.jpg";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+/* <svg class="bi" width="24" height="24"><use xlink:href=""></use></svg> */
